@@ -2,6 +2,7 @@
 
 ### Definations
 
+
  <details>
  <summary>Answer</summary>
   
@@ -16,9 +17,8 @@
      Graphs: BFS,DFS,Prim,Kruskal,Dijkstra
      Strings: KMP,regular expression,TST, Huffman,LZW
      advanced: B-tree,suffix array,maxflow
-  
+     
   ```
-  
  </details>
   
 ### Why Study Algorithms?
