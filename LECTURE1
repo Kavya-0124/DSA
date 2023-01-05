@@ -6,8 +6,6 @@
  <details>
  <summary>Answer</summary>
   
-  ```
-  
      Algorithms: These are the methods of solving problems.
      Data Structures: Store the information associated with the problem.
   
@@ -18,7 +16,6 @@
      Strings: KMP,regular expression,TST, Huffman,LZW
      advanced: B-tree,suffix array,maxflow
      
-  ```
  </details>
   
 ### Why Study Algorithms?
