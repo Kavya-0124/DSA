@@ -2,7 +2,9 @@
 
 ### Definations
 
+
   <details>
+  <summary>Answer</summary>
   
   Algorithms: These are the methods of solving problems.
   Data Structures: Store the information associated with the problem.
@@ -14,16 +16,20 @@
   Strings: KMP,regular expression,TST, Huffman,LZW
   advanced: B-tree,suffix array,maxflow
   
+  
   </details>
   
 ### Why Study Algorithms?
 
+
   <details>
+  
   
   >Old roots,new opportunities
   >Impact is broad and far reaching.
   >To solve problems that could not otherwise be addressed.
   >>Eg:Network Connectivity
+  
   
   </details>
   
