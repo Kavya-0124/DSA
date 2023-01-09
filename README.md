@@ -19,3 +19,22 @@
  </details>
   
 ### Why Study Algorithms?
+
+
+  <details>
+  <summary>Answer</summary>
+  
+  
+     > Their impact is broad and far-reaching.
+     > Old roots and new opportunities.
+       >> Study of algorithms dates at least to Euclid.
+       >> Formalized by Church and Turing in 1930s.
+     > To solve problems that could not otherwise be addressed.
+       >> Eg. Network Connectivity.
+     >For intellectual stimulations.
+     ***Francis Sullivan- For me great algorithms are the poetry of computation. Just like verse, they can be terse,allusive,dense and even mysterious. But once unlocked, they cast a rilliant new light on some aspect of computing.***
+        
+  </details>
+       
+  
+     
