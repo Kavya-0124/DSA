@@ -36,6 +36,27 @@
         unlocked, they cast a rilliant new light on some aspect of computing.***
         
   </details>
+  
+### Union-Find Problem
+
+  <details>
+  <summary>Answer</summary>
+   
+   - Dynamic Connectivity
+   - Quick find
+   - Quick union
+   - Improvements
+   - Applications
+ 
+  </details>
+  
+  <details>
+  <summary>Steps to developing a usable algorithm</summary>
+  
+   
+ 
+  </details>
+ 
        
   
      
