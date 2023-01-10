@@ -61,7 +61,14 @@
    - Iterate until satisfied.
    
   </details>
- 
+  
+  <details>
+  <summary>Dynamic connectivity</summary>
+  
+   - **Union command:** connect two objects.
+   - **Find/connected query:** is there a path connecting the two objects?
+   
+  </details>
        
   
      
