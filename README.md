@@ -68,6 +68,25 @@
    - **Union command:** connect two objects.
    - **Find/connected query:** is there a path connecting the two objects?
    
+   ***Modelling the objects***
+   - Pixels in a digital photo.
+   - Computers in a network.
+   - Friends in a social network.
+   - Transistors in a computer chip.
+   - Elements in a mathematical set.
+   - Variable name in Fortran program.
+   - Metallic sites in a composite system.
+   
+   ***Moddeling the connections***
+   We assume "is connected to" is an equivalence relation:
+   - Reflexive: p is connected to p.
+   - Symmetric: if p is connected to q, then q is connected to p.
+   - Transitive: if p is connected to q and q is connected to r, then p is connected to r.
+   
+   ***Implementing the operations***
+   - Find Query: Check if two objects are in the same component.
+   - Union Command: Replace components containing two objects with their union.
+   
   </details>
        
   
