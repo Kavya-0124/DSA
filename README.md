@@ -87,7 +87,54 @@
    - Find Query: Check if two objects are in the same component.
    - Union Command: Replace components containing two objects with their union.
    
+   - Read in number of objects N from standard input.
+   - Repeat:
+     - read in pair of integers from standard input 
+     - if they are not connected,connect them and print out pair
+     
+  ```
+    
+    public static void main(Strings[] args)
+    {
+       int N = StdIn.readInt();
+       UF uf = new UF(N);
+       while(!StdIn.isEmpty())
+       {
+          int p = StdIn.readInt();
+          int q = StdIn.readInt();
+          if(!uf.connected(p,q))
+          {
+             uf.union(p,q);
+             StdOut.println(p+" "+q);
+          }
+        }  
+      }
+      
+  ```
+    
   </details>
+  
+### Quick Find
+  
+  <details>
+  <summary>Quick Find</summary>
+  Basically called as Eager Approch. 
+  - Integer array id[] of size N.
+  - Interpretation: p and q are connected iff they have the same id.
+          
+          
+     id[]:
+     ---------------------
+     |0|1|2|3|4|5|6|7|8|9|
+     ---------------------
+     
+   - Find. Check if p and q have the same id.
+      id[6]=0; id[1]=1;
+      6 and 1 are not connected
+      
+   - Union. To merge compnents containing p and q, change all entries whose id equals id[p] to id[q].
+   
+     
        
   
      
