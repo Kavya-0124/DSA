@@ -206,6 +206,26 @@
           return search(root.right,key);
        }
        }
+       
+       public static Node delete(Node root,int val){
+       if(root.data>val{
+       root.left=delete(root.left,val);
+       }
+       else if(root.data<val){
+       root.right=delete(root.right,val);
+       }
+       else{ //root.data==val
+       //case 1
+       if(root.left==null && root.right==null){
+       return null;
+       }
+       //case 2
+       if(root.left==null){
+       return root.right;
+       }
+       }
+       }
+       
        public ststic void main(String args[]){
           int values[]={5,1,3,4,2,7};
           Node root=null;
@@ -227,9 +247,12 @@
 
   - Delete a Node
     - Cases:
-      - No child(Leaf Node)
-      - One child
-      - Two Children
+      - No child(Leaf Node):Delete Node and Return null to parent.
+      - One child:Delete Node and replace with child node.
+      - Two Children:Replace value with inorder successor, Delete the node for inorder successor(inorder successor always has 0 or 1 child).
+      Inorder successor in BST(by default) is left most in Right subtree.
+      
+      
   
  </details>
      
