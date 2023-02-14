@@ -134,6 +134,104 @@
       
    - Union. To merge compnents containing p and q, change all entries whose id equals id[p] to id[q].
    
+   </details>
+   
+### Binary Search Tree
+
+  <details>
+  <summary>BST</summary>
+  T.C= 0(h)
+  where h=height of the tree
+  T.C AVG=logn
+  
+  - What is BST?
+    - Left Subtree Nodes<Root
+    - Right SubtreeNodes>Root
+    - Left and Right Subtrees are also BST with no duplicates.
+  
+  - Special Property
+    -Inorder(left,root,right) Traversal of BST gives a sorted sequence.
+  
+  - Suppose we are given a key. To find the value we will compare the key with root, if the key is smaller than the rrot then we will traverse in the left else in the right. And do this recursively. T.C=O(h)/logn.
+  
+  - Skewed trees
+    - The trees that are not balance and go in any one direction and follow a linear fashion.
+    
+  - BST insertion
+  
+ ```
+ 
+  public class BST{
+      static class Node{
+          int data;
+          Node left;
+          Node right;
+          Node(int data){
+          this.dataa=data;
+          }
+       }
+       //insertion of node in bst
+       public static Node insert(Node root,int val){
+          if(root==null){
+          root=new Node(val);
+          return root;
+          }
+          if(root.data>val){
+          root.left=insert(root.left,val);
+          }
+          else{
+          root.right=insert(root.right,val);
+          }
+          return root;
+       }
+       public static void inorder(Node root){
+       if(root==null){
+       return;
+       }
+       inorder(root.left);
+       System.out.print(root.data+"");
+       inorder(root.right);
+       }
+       public static boolean serach(Node root, int key){
+       if(root==null){
+       return false;
+       }
+       if(root.data>key){
+          return search(root.left,key);    
+       }
+       else if(root.data==key){
+           return true;
+           }
+       else{
+          return search(root.right,key);
+       }
+       }
+       public ststic void main(String args[]){
+          int values[]={5,1,3,4,2,7};
+          Node root=null;
+          for(int i=0;i<values.length;i++){
+          root=insert(root,values[i]);
+       }
+       inorder(root);
+       System.out.println();
+       if(search(root,1)){//key=1
+       System.out.println("found");
+       }
+       else{
+       System.out.println("not found");
+       }
+    }   
+  }
+  
+```
+
+  - Delete a Node
+    - Cases:
+      - No child(Leaf Node)
+      - One child
+      - Two Children
+  
+ </details>
      
        
   
