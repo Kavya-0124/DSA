@@ -255,6 +255,22 @@
       
   
  </details>
+
+ <details>
+ <summary>Trie</summary>
+ 
+ - What is Trie?
+   - Prefix
+   - Digit Search
+   - Retrieval tree
+  
+  T.C=O(L) 
+  
+ - Why Trie?
+   - Search Fast
+   - Root is an empty node.
+   - Prefix is not repeated.
+   -  
      
        
   
