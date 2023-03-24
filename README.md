@@ -273,5 +273,40 @@
    -  
      
        
+  </details>
   
-     
+  # Graphs
+  <details>
+  <summary>Graphs</summary>
+  
+  - Network of points.
+  - Network is formed with connections.
+  - Nodes in graph are called vertex orvertices.
+  - Connections are called edges.
+  
+  ## Applications of Graphs
+  - Maps
+  - Social Network
+  - Delivery Network9Shortest Cyclic Path)
+  
+  
+  
+  - Types of Edges
+    - Direction
+      - Unidirectional
+      - Bidirectional
+      - Directed Graph
+      - Undirected Graph
+    - Weight
+      - Weighted
+      - Un-weighted
+      
+  - Storing a Graph
+    - Adjacency List
+      - Lists of lists
+      - 
+    - Adjacency Matrix
+    - Edge List
+    - 2D matrix(Implict Graph)
+    
+    
